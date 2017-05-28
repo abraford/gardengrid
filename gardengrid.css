@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+#gardenwrapper {
+  width: 300px;
+  margin: auto;
+  padding: 0 20px 0 20px;
+  border-left: 1px solid #000;
+
+
+
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 150px 150px;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+
+
+}
+
+.box {
+  background-color: #444;
+  height: 100px;
+  color: #444;
+  border-radius: 5px;
+  padding: 10px 20px 5px 20px;
+
+
+}
+
+.box:hover { 
+  color: #000;
+  background-color: #8fdd2c;
+}
+
+h2 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+
+
+h1 {
+  font-family: 'Fjalla One', sans-serif;
+  padding: 50px 0 10px 0;
+  border-bottom: 1px solid #000;
+  margin: 0 0 10px 0;
+
+
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0 0 20px 0;
+  font-weight: 300;
+  font-size: 12px;
+
+
+
+}
